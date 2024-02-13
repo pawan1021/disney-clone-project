@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import logo from './../assets/Images/logo.png';
+import profile from './../assets/Images/profile.jpg';
 import {
     HiHome,
     HiMagnifyingGlass ,
@@ -67,7 +68,7 @@ function Header() {
 
         </div>
       </div>
-       <img src={logo} alt="profile" className='w-[40px] mt-5 rounded-full mr-9'/>
+       <img src={profile} alt="profile" className='w-[40px] mt-5 rounded-full mr-9'/>
     </div>
   )
 }
