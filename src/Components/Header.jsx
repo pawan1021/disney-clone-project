@@ -67,7 +67,7 @@ function Header() {
 
         </div>
       </div>
-       <img src="src\assets\Images\profile.jpg" alt="profile" className='w-[40px] mt-5 rounded-full mr-9'/>
+       <img src={logo} alt="profile" className='w-[40px] mt-5 rounded-full mr-9'/>
     </div>
   )
 }
